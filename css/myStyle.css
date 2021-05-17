@@ -1,0 +1,91 @@
+*{
+	scroll-behavior: smooth;
+}
+body {
+	/*background: #c7b15f;*/
+	background-color: #222831;
+}
+
+.Heading {
+    font-family: 'Berkshire Swash', cursive;
+    color: #f2a365;
+}
+.navbar{
+	z-index: 999;
+}
+.nav-item{
+	font-family: 'Berkshire Swash', cursive;
+}
+.checkLogin {
+    margin: 10px;
+    border-radius: 5%;
+    transition:all 0.5s ease-in-out;
+    animation: myAnim 4s linear infinite alternate;
+}
+@keyframes myAnim {
+	0%{box-shadow: 0 0 40px red;}
+	25%{box-shadow: 0 0 40px blue;}
+	50%{box-shadow: 0 0 40px green;}
+	100%{box-shadow: 0 0 40px yellow;}
+}
+marquee{
+	animation: marq 4s linear infinite alternate;
+	z-index: 9;
+	position: fixed;
+	bottom: 0;
+}
+@keyframes marq {
+	0%{color: white;}
+	25%{color: green;}
+	50%{color: yellow;}
+	100%{color: #f2a365;}
+}
+.checkLogin:hover{
+	transform: scale(1.05);
+	/*box-shadow: 0 0 30px white;	*/
+	border:5px dashed goldenrod;
+}
+
+.event1{
+	/*box-shadow: 0 0 30px red;*/
+}
+.event2{
+	/*box-shadow: 0 0 30px blue;*/
+}
+.event3{
+	/*box-shadow: 0 0 30px aqua;*/
+}
+
+.modal-content img{
+	border-radius:20px; 
+	border:5px dashed lightgray; 
+	transition:all 0.5s ease-in-out;
+}
+.modal-content img:hover{
+	border-radius:0; 
+	transform: scale(1.05);
+}
+
+/*top st*/
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 20px;
+  border: 5px solid #222831;
+  outline: none;
+  background-color: #f2a365;
+  color: #222831;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+#topBtn:hover {
+  background-color: #222831;
+  color: #f2a365;
+  border: 5px solid #f2a365;
+}
+/*top en*/
