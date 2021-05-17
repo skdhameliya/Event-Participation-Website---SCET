@@ -33,10 +33,15 @@ after login
 ![8](https://user-images.githubusercontent.com/53290891/118449294-a2958600-b710-11eb-948a-ec3289e46058.JPG)
 
 user can see participated events
-![9](https://user-images.githubusercontent.com/53290891/118449297-a32e1c80-b710-11eb-918a-128e2e9e02c3.JPG)
+![9](https://user-images.githubusercontent.com/53290891/118450990-67945200-b712-11eb-99ec-0209a28bad76.JPG)
 
 user is not participated in any event yet
-![10](https://user-images.githubusercontent.com/53290891/118449300-a32e1c80-b710-11eb-8d98-b8e648324307.JPG)
+![10](https://user-images.githubusercontent.com/53290891/118451010-6c590600-b712-11eb-899c-a695da48c441.JPG)
+
+
+
+
+
 
 user participated in one event (solo event)
 ![11](https://user-images.githubusercontent.com/53290891/118449304-a3c6b300-b710-11eb-835f-ea9883f2d698.JPG)
